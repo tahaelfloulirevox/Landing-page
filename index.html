@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض حصري – سجّل الآن</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Tajawal", Arial, sans-serif;
+            background: linear-gradient(135deg, #2b5876, #4e4376);
+            color: #fff;
+        }
+
+        /* الهيدر */
+        header {
+            text-align: center;
+            padding: 70px 20px;
+            animation: fadeIn 1.2s ease;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 12px;
+            opacity: 0.9;
+        }
+
+        /* زر CTA */
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 40px;
+            font-size: 1.3em;
+            font-weight: bold;
+            background: #ff9800;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 10px 25px rgba(255, 152, 0, 0.4);
+            transition: 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #ffa726;
+            transform: scale(1.06);
+            box-shadow: 0 14px 30px rgba(255, 152, 0, 0.6);
+        }
+
+        /* القسم */
+        section {
+            background: rgba(255, 255, 255, 0.12);
+            margin: 30px auto;
+            max-width: 850px;
+            padding: 40px 25px;
+            border-radius: 18px;
+            text-align: center;
+            backdrop-filter: blur(6px);
+            animation: fadeUp 1.3s ease;
+        }
+
+        section h2 {
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        section p {
+            font-size: 1.15em;
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        /* الفوتر */
+        footer {
+            text-align: center;
+            padding: 25px 10px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 0.95em;
+            margin-top: 40px;
+        }
+
+        /* تأثيرات */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(25px); }
+            to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* الهاتف */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2.2em; }
+            section h2 { font-size: 1.7em; }
+            .cta-button { font-size: 1.1em; padding: 12px 28px; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>احصل على العرض الحصري الآن!</h1>
+        <p>سجّل في أقل من 30 ثانية واستمتع بامتيازات مميزة لا يحصل عليها الجميع.</p>
+
+        <!-- ضع رابط OGAds هنا -->
+        <a href="YOUR_OGADS_LINK" class="cta-button">سجّل الآن</a>
+    </header>
+
+    <section>
+        <h2>لماذا يجب أن تبدأ اليوم؟</h2>
+        <p>
+            لأن الفرص لا تأتي كل يوم!  
+            منصتنا تمنحك وصولاً سريعًا وسهلًا إلى أفضل الخدمات والعروض الحصرية
+            مع دعم كامل وتجربة مستخدم احترافية ومضمونة.
+        </p>
+        <p style="margin-top: 15px;">
+            انضم إلى آلاف المستخدمين الذين وثقوا بنا…  
+            العرض محدود، فلا تفوت الفرصة!
+        </p>
+    </section>
+
+    <footer>
+        © 2025 جميع الحقوق محفوظة – صفحتك الاحترافية
+    </footer>
+
+</body>
+</html>
